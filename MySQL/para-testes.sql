@@ -15,7 +15,12 @@ VALUES
 ('Campinas', 'SP'),
 ('Guarulhos', 'SP'),
 ('Curitiba', 'PR'),
-('Belo Horizonte', 'MG');
+('Belo Horizonte', 'MG')
+('Sorocaba', 'SP'),
+('Ribeirão Preto', 'SP'),
+('São José dos Campos', 'SP'),
+('Osasco', 'SP'),
+('Jundiaí', 'SP');
 
 -- Criando a tabela de clientes
 CREATE TABLE clientes (
