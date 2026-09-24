@@ -1,4 +1,3 @@
-CREATE DATABASE aprendendo_mysql;
 USE aprendendo_mysql;
 SELECT * FROM clientes;
 
