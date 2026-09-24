@@ -40,7 +40,12 @@ VALUES
 ('Juliana Lima', 27, '1999-12-12', 'juliana@email.com', 6),
 ('Lucas Martins', 21, '2005-06-25', 'lucas@email.com', 1),
 ('Gabriela Rocha', 24, '2002-02-28', 'gabriela@email.com', 3),
-('Rafael Almeida', 19, '2007-10-14', 'rafael@email.com', 2);
+('Rafael Almeida', 19, '2007-10-14', 'rafael@email.com', 2),
+('Fernanda Alves', 23, '2003-05-17', 'fernanda@email.com', NULL),
+('Ricardo Mendes', 31, '1995-08-09', 'ricardo@email.com', NULL),
+('Beatriz Ramos', 20, '2006-02-14', NULL, NULL),
+('Diego Ferreira', NULL, '2000-11-21', 'diego@email.com', NULL),
+('Larissa Gomes', 22, NULL, 'larissa@email.com', NULL);
 
 SELECT * FROM clientes;
 SELECT * FROM cidades;
