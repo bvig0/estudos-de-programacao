@@ -22,8 +22,8 @@ CREATE TABLE clientes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     idade INT,
-    data_nascimento DATE NOT NULL,
-    email VARCHAR(150) NOT NULL UNIQUE,
+    data_nascimento DATE ,
+    email VARCHAR(150) UNIQUE,
     cidade_id INT,
 
     FOREIGN KEY (cidade_id) REFERENCES cidades(id)
