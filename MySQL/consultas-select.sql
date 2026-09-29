@@ -97,3 +97,33 @@ SELECT * FROM clientes LIMIT 5;
 
 -- Pula os 2 primeiros e retorna os próximos 5
 SELECT * FROM clientes LIMIT 5 OFFSET 2;
+
+-- Clientes que não estão nas cidades 1, 2 ou 3
+SELECT nome, cidade_id FROM clientes WHERE cidade_id NOT IN (1, 2, 3);
+
+-- Clientes que não têm idade entre 18 e 25 anos
+SELECT nome, idade FROM clienteS WHERE idade NOT BETWEEN 18 AND 25;
+
+-- Clientes cuja data de nascimento está fora do intervalo
+SELECT nome, data_nascimento FROM clientes WHERE data_nascimento NOT BETWEEN '2000-01-01' AND '2005-12-31';
+
+-- Nomes que não começam com A
+SELECT id, nome FROM clientes WHERE nome NOT LIKE 'A%';
+
+-- Nomes que não contêm "an"
+SELECT id, nome FROM clientes WHERE nome NOT LIKE '%an%';
+
+-- Nomes que não termina com "a"
+SELECT id, nome FROM clientes WHERE nome NOT LIKE '%a';
+
+-- Clientes sem idade cadastrada
+SELECT id, nome, idade FROM clientes WHERE idade IS NULL;
+
+-- Clientes sem cidade cadastrada
+SELECT id, nome, cidade_id FROM clientes WHERE cidade_id IS NULL;
+
+-- Clientes que possuem idade cadastrada
+SELECT id, nome, idade FROM clientes WHERE idade IS NOT NULL;
+
+-- Clientes que possuem cidade cadastrado
+SELECT id, nome, cidade_id FROM clientes WHERE cidade_id IS NOT NULL;
