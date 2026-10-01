@@ -60,7 +60,7 @@ Exercícios usando a tabela `clientes`, sem utilizar `JOIN`.
 
 **25.** Mostre os clientes que não moram nas cidades `1`, `2` ou `3`.
 
-**26.** Mostre os clientes cujo nome tenha exatamente 5 letras.
+**26.** Mostre os clientes cujo nome tenha mais de 11 letras.
 
 **27.** Mostre os clientes cujo nome começa com `M` ou `C`.
 
