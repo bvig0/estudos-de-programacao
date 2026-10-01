@@ -46,7 +46,7 @@ Exercícios usando a tabela `clientes`, sem utilizar `JOIN`.
 
 **19.** Mostre os clientes que têm entre 18 e 25 anos e ordene pelo nome.
 
-**20.** Mostre apenas os nomes dos clientes das cidades `1`, `2` e `3`, sem repetir nomes.
+**20.** Mostre as idades diferentes dos clientes das cidades 1, 2 e 3, sem repetir valores.
 
 **21.** Mostre os 5 primeiros clientes, ordenados alfabeticamente pelo nome.
 
