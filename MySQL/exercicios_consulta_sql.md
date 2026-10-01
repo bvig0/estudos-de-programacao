@@ -62,9 +62,9 @@ Exercícios usando a tabela `clientes`, sem utilizar `JOIN`.
 
 **26.** Mostre os clientes cujo nome tenha mais de 11 letras.
 
-**27.** Mostre os clientes cujo nome começa com `M` ou `C`.
+**27.** Mostre os clientes cujo nome começa com `L` ou `J`.
 
-**28.** Mostre os nomes dos clientes com mais de 20 anos que moram nas cidades `2`, `3` ou `5`, ordenados alfabeticamente e limitados aos 3 primeiros.
+**28.** Mostre os nomes dos clientes com mais de 20 anos que moram nas cidades `2`, `3` ou `5` e ordenados alfabeticamente.
 
 ## 📌 Regras
 
