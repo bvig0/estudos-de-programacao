@@ -50,7 +50,11 @@ VALUES
 ('Ricardo Mendes', 31, '1995-08-09', 'ricardo@email.com', NULL),
 ('Beatriz Ramos', 20, '2006-02-14', NULL, NULL),
 ('Diego Ferreira', NULL, '2000-11-21', 'diego@email.com', NULL),
-('Larissa Gomes', 22, NULL, 'larissa@email.com', NULL);
+('Larissa Gomes', 22, NULL, 'larissa@email.com', NULL),
+('     Lucas Ferreira   ', 18, '2008-03-07', 'lucas.ferreira@email.com', 5),
+('MARIA EDUARDA   ', 23, '2003-11-25', 'maria.eduarda@email.com', 5),
+('   joao pedro', 21, '2005-06-14', 'joao.pedro@email.com', 5),
+('  Ana-Clara Souza  ', 29, '1997-01-09', 'ana.clara@email.com', 5);
 
 SELECT * FROM clientes;
 SELECT * FROM cidades;
