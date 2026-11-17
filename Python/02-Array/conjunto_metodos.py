@@ -8,8 +8,8 @@ print(linguagens)
 # COPY - copia os elementos de um conjunto para outro
 linguagensCopia = linguagens.copy()
 linguagensCopia.add("ts")
-print(linguagensCopia)
-print(id(linguagens), id(linguagensCopia))
+print(linguagensCopia) 
+print(id(linguagens), id(linguagensCopia)) 
 
 
 # CLEAR - limpa o conjunto
